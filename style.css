@@ -1,0 +1,104 @@
+nav button {
+    float: right;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    position: relative;
+    bottom:  140px;
+}
+
+.container {
+    margin: 15% auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    height: 70%;
+    width: 50%;
+
+}
+
+#first_input {
+    height: 2.5rem;
+    width: 60%;
+
+}
+
+#second_input {
+    height: 2.5rem;
+    width: 60%;
+
+}
+
+
+
+.container div {
+    margin: 40px;
+    padding:20px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+#swap_button {
+    padding: 10px;
+    color: black;
+    height: 2.5rem;
+    width: 60%;
+    font-size: large;
+    
+    
+}
+
+#sign_button {
+    height: 2.5rem;
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0.5rem;
+    font-size: large;
+    
+}
+
+#swap_button:hover {
+    color: white;
+    background-color: crimson;
+}
+
+.modal{
+    width: 40%;
+    display: none;
+    font-size:large ;
+    height: 50%;
+    /* position: relative;
+    bottom: 86%;
+    left: 23%; */
+    /* overflow: auto; */
+}
+
+
+.modal .modal_title {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 35px;
+    /* position:fixed; */
+    background-position:fixed;
+
+}
+
+.modal .modal_title button{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+
+.modal_list{
+    overflow: auto;
+    width: 100%;
+    height: 80%;
+}
+

@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+     <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+       
+    <title>Document</title>
+</head>
+<body>
+      <nav><div>
+        <button  id="sign_button">Sign in with metamask</button>
+ 
+      </div>
+      </nav>
+      <div class="container" id="container">
+        
+          <div class="select_token" id="select_token">
+              <label for="" id="from_select_token">SELECT TOKEN</label>
+                 <span>
+                    <img src="" alt="" id="from_img"> 
+                    <h5 id="from_symbol"> </h5>
+                 </span>
+              <input type="number" name="" id="from_amount" >
+          </div>
+
+          <div id="select_token">
+             <label for="" id="to_select_token">SELECT TOKEN</label>
+                <span>
+                    <img src="" alt="" id="to_img"> 
+                    <h5 id="to_symbol"></h5>
+                </span>
+             <input type="number" name="amount" id="to_amount" >
+          </div>
+        <br>
+
+        <p>Gas Estimate :   <span id="gas_estimate"></span></p> 
+
+          <div>
+            <button   id="swap_button" >
+                SWAP
+            </button>
+          </div>
+
+      </div>
+
+      <h1 id="checking"></h1>
+
+        <div class="modal" id="modal">
+            <div class="modal_title">
+                    <h3> SELECT A TOKEN</h3>
+                    <button id="modal_close" >&times;</button>
+            </div>
+            <div class="modal_list" id="modal_list">
+                    
+            </div>
+            
+        </div>
+     
+        >
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script> -->
+        <script src="./index.js"></script>
+   
+    </body>
+
+
+</html>
